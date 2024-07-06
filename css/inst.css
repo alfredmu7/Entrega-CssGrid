@@ -1,0 +1,206 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+.search {
+    flex: 1;
+    text-align: center;
+}
+
+.search input {
+    width: 40%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.status{
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    gap: 10px;
+    place-items: center;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    height: 60px;
+    width: 35.5%;
+    border-radius: 4px;
+    margin: 20px 275px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1350px;
+    
+    
+    
+    
+    
+   } 
+    
+.status img{
+    
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+
+.profile img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 50px; 
+    max-width: 800px;
+    margin: 20px auto; 
+}
+
+/* Estilos para la Caja 1: Contenedor del post */
+.post-container {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.post-header {
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+.username-container {
+    display: grid;
+    
+}
+
+.username {
+    font-weight: 500;
+}
+
+.post-content {
+    padding:10px;
+    display: grid;
+    justify-items: center;
+    
+    
+}
+
+.post-pic {
+    width: 70%; 
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+
+.post-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 20px);
+    margin-right: 52%;
+    
+}
+
+
+.post-text {
+    
+    font-size: 14px;
+}
+
+.post-footer {
+    
+    font-size: 13px;
+    
+}
+
+
+
+.texto-view{
+    color: #A49B9B;
+    
+}
+
+
+/* Estilos para la Caja 2: Contenedor del perfil y enlace de cambio */
+.profile-info-container {
+    padding: 5px;
+    
+
+}
+
+.username-container{
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    gap: 20px;
+    align-items: center;
+}
+
+.change-link {
+    margin-left: 10px;
+    color: #3897f0;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 10px;
+    color: #808080;
+    ;
+}
+
+.footer-content {
+        background-color: #000; 
+        color: #fff; 
+        text-align: center;
+        padding: 5px 0;
+        font-size: 10px;
+        max-width: 1200px;
+        margin: 0 auto; 
+        padding: 0 80px; 
+    
+
+    }
